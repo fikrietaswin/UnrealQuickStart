@@ -5,9 +5,18 @@
 	"Description": "",
 	"Modules": [
 		{
-			"Name": "UnrealQuickStart",
+			"Name": "UnrealQuickStartCore",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}
 	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		}
+	]
 }
