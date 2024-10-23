@@ -5,7 +5,7 @@
 
 IMPLEMENT_PRIMARY_GAME_MODULE(FDefaultGameModuleImpl, ARQuickStartCore, "ARQuickStartCore");
 
-// Entry point for the AR system
+// Entry point for the AR system TODO: Optimize again
 void FARQuickStartCore::StartupModule()
 {
     Super::StartupModule();
